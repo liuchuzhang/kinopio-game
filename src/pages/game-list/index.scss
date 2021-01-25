@@ -1,0 +1,19 @@
+.game-list {
+  min-height: 100vh;
+  padding: 30px 0;
+  .item {
+    margin-top: 32px;
+
+    &:first-child {
+      margin-top: 0;    
+    }
+  }
+}
+
+.more {
+  font-size: 32px;
+}
+
+.at-load-more__cnt {
+  border: 0;
+}
